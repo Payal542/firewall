@@ -1,0 +1,2 @@
+iptables -A INPUT -p tcp --dport telnet -j REJEC
+iptables -A OUTPUT -p tcp --dport telnet -j ACCEPT
